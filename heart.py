@@ -1,7 +1,8 @@
 import streamlit as st
 import pickle
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+#from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 
 #create  a function to preprocess the data
